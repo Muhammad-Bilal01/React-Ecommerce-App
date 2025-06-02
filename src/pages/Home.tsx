@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getProducts } from '../utils/api';
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
 
 const Home = () => {
     const [products, setProducts] = useState<any[]>([]);
@@ -16,7 +15,6 @@ const Home = () => {
 
     return (
         <div>
-            <Navbar />
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
                 {products.map(product => (
                     <div key={product.id} className="border p-2 rounded shadow">

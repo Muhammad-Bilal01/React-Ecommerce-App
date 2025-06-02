@@ -12,8 +12,8 @@ Welcome to **ShopSwift**, a fully functional e-commerce frontend built with Reac
 
 ## 📸 Screenshots
 
-| Home Page | Product Detail | Cart Page | Checkout |
-|-----------|----------------|-----------|----------|
+| Home Page                       | Product Detail                      | Cart Page                       | Checkout                                |
+| ------------------------------- | ----------------------------------- | ------------------------------- | --------------------------------------- |
 | ![home](./screenshots/home.png) | ![detail](./screenshots/detail.png) | ![cart](./screenshots/cart.png) | ![checkout](./screenshots/checkout.png) |
 
 ---
@@ -21,44 +21,50 @@ Welcome to **ShopSwift**, a fully functional e-commerce frontend built with Reac
 ## 📦 Features
 
 ### 👤 Authentication
+
 - Sign Up / Login using Fake API
 - Store token in `localStorage`
 - Protected Routes for Checkout & Orders
 
 ### 🛍️ Product Catalog
+
 - Fetch products from [FakeStoreAPI](https://fakestoreapi.com/)
 - Filter products by category
 - Product detail page with full description
 
 ### 🛒 Shopping Cart
+
 - Add to cart / remove from cart
 - Quantity update
 - Persistent cart (via `localStorage`)
 
 ### 💸 Checkout Process
+
 - Simple checkout form
 - Fake order summary & success screen
 
 ### 🧾 Order History
+
 - Mock order data saved locally
 - Users can view past orders
 
-### 🧑‍💼 Admin Panel *(Optional)*
+### 🧑‍💼 Admin Panel _(Optional)_
+
 - Add / Edit / Delete Products (future scope)
 
 ---
 
 ## 🧱 Tech Stack
 
-| Layer       | Technology                         |
-|-------------|-------------------------------------|
-| Frontend    | React.js (with Vite or CRA)         |
-| Routing     | React Router DOM                    |
-| State Mgmt  | Context API / useReducer            |
-| Styling     | Tailwind CSS / CSS Modules          |
-| API         | [FakeStoreAPI](https://fakestoreapi.com/) |
-| Storage     | localStorage (cart, token, orders)  |
-| Auth        | Simulated JWT auth (fake login)     |
+| Layer      | Technology                                |
+| ---------- | ----------------------------------------- |
+| Frontend   | React.js (with Vite or CRA)               |
+| Routing    | React Router DOM                          |
+| State Mgmt | Context API / useReducer                  |
+| Styling    | Tailwind CSS / CSS Modules                |
+| API        | [FakeStoreAPI](https://fakestoreapi.com/) |
+| Storage    | localStorage (cart, token, orders)        |
+| Auth       | Simulated JWT auth (fake login)           |
 
 ---
 
@@ -76,13 +82,12 @@ Welcome to **ShopSwift**, a fully functional e-commerce frontend built with Reac
 
 ---
 
-
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repo
 
-
 ### 2. Install Dependencies
+
 ```bash
 npm install
 # or
@@ -90,14 +95,17 @@ yarn install
 ```
 
 ### 3. Run the App
+
 ```
 npm run dev
 # or
 yarn dev
 ```
+
 ---
 
 ## 🧪 API Reference
+
 Base URL: https://fakestoreapi.com
 
 - `/products` – Get all products
@@ -110,8 +118,8 @@ Base URL: https://fakestoreapi.com
 
 ---
 
-
 ## ✍️ Future Enhancements
+
 - Admin dashboard
 
 - Payment gateway (Stripe or Razorpay integration)
@@ -123,4 +131,5 @@ Base URL: https://fakestoreapi.com
 - Pagination & sorting
 
 ## 🤝 Contributing
+
 Contributions are welcome! Fork the repo, create a new branch, and submit a pull request.
