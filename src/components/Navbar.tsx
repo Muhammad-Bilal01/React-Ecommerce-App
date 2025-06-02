@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCart } from "../contexts/CartContext";
-import { FaMoon, FaSun, FaShoppingCart, FaUser } from "react-icons/fa";
+import { FaShoppingCart, FaUser } from "react-icons/fa";
 
 export const Navbar = () => {
     const { cart } = useCart();

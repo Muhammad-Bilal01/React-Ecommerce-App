@@ -6,7 +6,7 @@ Welcome to **ShopSwift**, a fully functional e-commerce frontend built with Reac
 
 ## 🚀 Live Demo
 
-> Coming soon... (optional: add Netlify/Vercel link here)
+> [ShopSwift](https://react-swift-shop.netlify.app/)
 
 ---
 
